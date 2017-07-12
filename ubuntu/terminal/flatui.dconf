@@ -1,0 +1,14 @@
+[/]
+foreground-color='rgb(236,240,241)'
+visible-name='FlatUI'
+palette=['rgb(44,62,80)', 'rgb(192,57,43)', 'rgb(39,174,96)', 'rgb(211,84,0)', 'rgb(41,128,185)', 'rgb(142,68,173)', 'rgb(22,160,133)', 'rgb(243,156,18)', 'rgb(52,73,94)', 'rgb(231,76,60)', 'rgb(46,204,113)', 'rgb(230,126,34)', 'rgb(52,152,219)', 'rgb(155,89,182)', 'rgb(26,188,156)', 'rgb(241,196,15)']
+default-size-columns=130
+default-size-rows=40
+use-system-font=false
+use-transparent-background=true
+use-theme-colors=false
+font='Ubuntu Mono 12'
+use-theme-transparency=false
+background-color='rgb(44,62,80)'
+background-transparency-percent=5
+scrollback-lines=20000
