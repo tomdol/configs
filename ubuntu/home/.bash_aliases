@@ -3,6 +3,7 @@ alias l='ls -lh'
 alias g='grep -i'
 alias ..='cd ..'
 alias p='cd ~/projects'
+alias dirsize='du -h --max-depth=1'
 
 alias ap='aptitude'
 alias k9="kill -9"
