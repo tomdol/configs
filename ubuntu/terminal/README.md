@@ -1,3 +1,5 @@
+![screenshot](screenshot.png)
+
 # Installation
 0. Download the `flatui.dconf` file
 1. Start gnome-terminal and create a new profile(`File -> New Profile`). Don't forget to name it (`FlatUI` will do).
