@@ -1,0 +1,98 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+
+    // You can add more global application settings here.
+    // To learn more about global settings, visit https://aka.ms/terminal-global-settings
+
+    "copyOnSelect": true,
+    "copyFormatting": false,
+
+    "initialCols": 150,
+    "initialRows": 40,
+
+    "profiles":
+    {
+        "defaults":
+        {
+            "colorScheme": "Monokai Pro",
+            "fontFace": "Fira Code Retina",
+            "fontSize": 11,
+            "antialiasingMode": "cleartype",
+            "useAcrylic": true,
+            "acrylicOpacity": 0.9
+        },
+        "list":
+        [
+            {
+                "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+                "hidden": false,
+                "name": "Ubuntu-18.04",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                // Make changes here to the powershell.exe profile.
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe",
+                "hidden": false
+            },
+            {
+                // Make changes here to the cmd.exe profile.
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "Command Prompt",
+                "commandline": "cmd.exe",
+                "hidden": false
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        ]
+    },
+
+    // Add custom color schemes to this array.
+    // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
+    "schemes": [
+        {
+            "name": "Monokai Pro",
+            "foreground": "#cfcfcf",
+            "background": "#292929",
+            "cursorColor": "#FFFFFF",
+            "black": "#0C0C0C",
+            "red": "#ff616f",
+            "green": "#13A10E",
+            "yellow": "#ffd840",
+            "blue": "#317ac6",
+            "purple": "#d95ff7",
+            "cyan": "#78dce8",
+            "white": "#f0f0f0",
+            "brightBlack": "#403e41",
+            "brightRed": "#fb9767",
+            "brightGreen": "#a9dc76",
+            "brightYellow": "#ffd866",
+            "brightBlue": "#5fc3ce",
+            "brightPurple": "#df87f5",
+            "brightCyan": "#a1dee6",
+            "brightWhite": "#ffffff"
+        }
+    ],
+
+    // To learn more about keybindings, visit https://aka.ms/terminal-keybindings
+    "keybindings":
+    [
+        // To learn more about selection, visit https://aka.ms/terminal-selection
+        { "command": {"action": "copy", "singleLine": false }, "keys": "ctrl+c" },
+        { "command": "paste", "keys": "ctrl+v" },
+        { "command": "find", "keys": "ctrl+shift+f" },
+
+        // Press Alt+Shift+D to open a new pane.
+        // - "split": "auto" makes this pane open in the direction that provides the most surface area.
+        // - "splitMode": "duplicate" makes the new pane use the focused pane's profile.
+        // To learn more about panes, visit https://aka.ms/terminal-panes
+        { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" }
+    ]
+}
