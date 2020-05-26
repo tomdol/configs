@@ -59,12 +59,12 @@
     "schemes": [
         {
             "name": "Monokai Pro",
-            "foreground": "#cfcfcf",
-            "background": "#292929",
+            "foreground": "#dadada",
+            "background": "#212121",
             "cursorColor": "#FFFFFF",
             "black": "#0C0C0C",
             "red": "#ff616f",
-            "green": "#13A10E",
+            "green": "#79cc26",
             "yellow": "#ffd840",
             "blue": "#317ac6",
             "purple": "#d95ff7",
