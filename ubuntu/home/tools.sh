@@ -1,4 +1,4 @@
 #!/bin/bash
 
 apt update
-apt install -y ranger mc git htop ncdu 
+apt install -y ranger mc git htop ncdu micro
